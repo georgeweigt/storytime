@@ -5,3 +5,5 @@
 [Heisenberg and the Early Days of Quantum Mechanics](https://georgeweigt.github.io/bloch.pdf) by Felix Bloch
 
 [How the First Transistor Worked](https://georgeweigt.github.io/zorpette.pdf) by Glenn Zorpette
+
+[How Pearl Harbor forced the world’s first around-the-world commercial flight](https://georgeweigt.github.io/kindy.pdf) by Dave Kindy
