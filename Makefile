@@ -4,10 +4,9 @@
 
 %.pdf: %.tex
 	pdflatex $<
-	if [ -e $*.toc ] ; then pdflatex $< ; fi
 
 default:
 	for file in $$(ls *.tex | sed "s/\.tex/\.pdf/") ; do make $$file ; done
 
 clean:
-	rm -f *.aux *.log *.synctex.gz *.toc
+	rm -f *.aux *.log *.synctex.gz
