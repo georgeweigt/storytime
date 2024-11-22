@@ -6,7 +6,7 @@
 	pdflatex $<
 
 default:
-	for file in $$(ls *.tex | sed "s/\.tex/\.pdf/") ; do make $$file ; done
+	for file in $$(basename -a -s .tex *.tex) ; do make $$file.pdf ; done
 
 clean:
 	rm -f *.aux *.log *.synctex.gz
